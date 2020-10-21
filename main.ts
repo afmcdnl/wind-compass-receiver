@@ -1,3 +1,4 @@
+// Adding this  series of if statements can allow the  micro:bit to determine the direction.
 radio.onReceivedNumber(function (receivedNumber) {
     Wind_direction = receivedNumber
     if (Wind_direction < 45 || Wind_direction > 315) {
