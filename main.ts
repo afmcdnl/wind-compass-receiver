@@ -13,4 +13,5 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
 })
 let Wind_direction = 0
+basic.showString("Compass Receiver")
 radio.setGroup(1)
